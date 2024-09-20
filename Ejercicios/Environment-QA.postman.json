@@ -1,0 +1,15 @@
+{
+	"id": "1e57bbba-2b38-478e-8327-7ba5e03de793",
+	"name": "QA",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-05-01T03:07:33.583Z",
+	"_postman_exported_using": "Postman/10.24.24"
+}

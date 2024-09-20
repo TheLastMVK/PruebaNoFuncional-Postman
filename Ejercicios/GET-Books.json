@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "5e78a3d3-ac55-4bd6-b704-c8e9a11a14a7",
+		"name": "session-01",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1023482",
+		"_collection_link": "https://cloudy-robot-3500.postman.co/workspace/Galaxy-2024~9541bc90-777b-4160-a171-c6b013a143ff/collection/1023482-5e78a3d3-ac55-4bd6-b704-c8e9a11a14a7?action=share&source=collection_link&creator=1023482"
+	},
+	"item": [
+		{
+			"name": "retrive books",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "G-TOKEN",
+						"value": "ROM831ESV",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
